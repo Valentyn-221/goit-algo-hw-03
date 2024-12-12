@@ -8,6 +8,6 @@ def get_days_from_today(date):
         return (today-date_1).days
     
     except ValueError:
-        print(f"{date} is not a str object")
+        print(f"{date}  is not a data in format YYYY-MM-DD")
 
  
